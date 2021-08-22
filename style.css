@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    margin: 10% 10%;
+}
+
+.flex-item {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    text-align: center;
+    line-height: 30px;
+}
+
+.flex-body {
+    display: flex;
+}
+
+/* Распологает элементы в ряд, с одинаковыми отступами  между элементами */
+
+/* .flex-body {
+    justify-content: space-between;
+} */
+
+
+
+/* Распологает элементы в ряд, с одинаковыми отступами  между элементами и по краям*/
+
+.flex-body {
+    justify-content: space-around;
+}
+
+/* Распологает элементы в колону. */
+
+/* .flex-body {
+    flex-direction: column;
+} */

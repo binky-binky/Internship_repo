@@ -9,6 +9,8 @@
     margin: 10% 10%;
 }
 
+/* FLEXBOX */
+
 .flex-item {
     width: 30px;
     height: 30px;
@@ -64,3 +66,24 @@
      align-items: baseline; /*Флексы выравниваются по их базовой линии. */
      align-items: stretch; /*Флексы растягиваются таким образом, чтобы занять всё доступное пространство контейнера. */
 }
+
+
+
+/* GRID */
+
+.grid-item {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    line-height: 30px;
+    text-align: center;
+}
+
+.grid-body {
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr; /*Отвечает за количество колонок */
+     grid-template-rows: 1fr 1fr; /*Отвечает за количество рядов */
+     grid-gap: 1em; /* Отвечает за пробелы между гридами */
+}
+
+/* fr - единица измерения, которая отвечает за свободное пространство и равномерно заполняет его */
